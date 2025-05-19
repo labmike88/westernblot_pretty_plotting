@@ -3,3 +3,6 @@ code to plot quantification of westerblot in a format compatible with illustrato
 
 # usage
 For the usage remember to make sure the normalized values are called "ratio" or change the name of the variable in the code.
+
+df = pd.read_csv('wapl_depletion.csv') 
+plot_dotplot(df, df_name="HA (WAPL)")
